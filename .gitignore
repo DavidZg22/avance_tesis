@@ -1,0 +1,21 @@
+# Archivos generados por LaTeX
+06_latex/*.aux
+06_latex/*.log
+06_latex/*.toc
+06_latex/*.out
+06_latex/*.bbl
+06_latex/*.blg
+06_latex/*.pdf
+
+# Archivos generados por MATLAB
+02_codigo_matlab/resultados/
+...
+
+# Archivos generados por COMSOL
+01_modelos_comsol/archivos_mph/
+...
+
+# Archivos generados por Origin
+03_graficos_origin/imagenes_resultado/
+...
+
