@@ -1,0 +1,23 @@
+? [2025-04-19_19-31-38] Inicio de ejecución: iterativo_02
+
+dir_mph =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph'
+
+
+name_mph =
+
+    'circunferencia.mph'
+
+
+dir =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph\circunferencia.mph'
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+Dimensions of matrices being concatenated are not consistent.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('iterativo_02', 'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\iterativo_02.m', 29)" style="font-weight:bold">iterativo_02</a> (<a href="matlab: opentoline('C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\iterativo_02.m',29,0)">line 29</a>)
+T = [T M]'
+} 
+iterativo_02

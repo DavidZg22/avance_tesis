@@ -1,0 +1,18 @@
+? [2025-04-19_19-21-51] Inicio de ejecución: iterativo_02
+
+dir_mph =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph'
+
+
+name_mph =
+
+    'circunferencia.mph'
+
+
+dir =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph\circunferencia.mph'
+
+?? Tiempo de ejecución: 0.004 segundos
+? [2025-04-19_19-22-33] Fin de simulación
