@@ -1,0 +1,34 @@
+name: Build and Deploy LaTeX to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # O la rama principal que estés usando
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-full
+
+      - name: Compilar PDF
+        run: |
+          pdflatex -interaction=nonstopmode -halt-on-error tesis.tex
+
+      - name: Preparar carpeta para Pages
+        run: |
+          mkdir -p public
+          cp tesis.pdf public/
+
+      - name: Deploy a GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
