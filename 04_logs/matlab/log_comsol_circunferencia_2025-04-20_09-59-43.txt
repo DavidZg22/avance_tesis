@@ -1,0 +1,18 @@
+? [2025-04-20_09-59-43] Inicio de ejecución: comsol_circunferencia
+
+dir_mph =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph'
+
+
+name_mph =
+
+    'circunferencia.mph'
+
+
+dir =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph\circunferencia.mph'
+
+Tiempo de ejecución: 86.146 segundos
+[2025-04-20_10-01-09] Fin de simulación

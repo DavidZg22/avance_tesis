@@ -5,4 +5,5 @@
 06_latex/*.out
 06_latex/*.bbl
 06_latex/*.blg
-06_latex/*.pdf
+#06_latex/*.pdf
+06_latex/*.gz
