@@ -1,0 +1,10 @@
+lam2 0.1 Moneda
+T 0.96 ""
+r 1 "Radio Hueco"
+lam1 1 "Disco Grande"
+L 10 "Lado Cuadrado"
+H 3 ""
+A L*L "Area constante total"
+lam1_T lam1/sqrt(1-T*T*T*T) ""
+lam2_T lam2/sqrt(1-T*T*T*T) ""
+R sqrt(100/pi) "Radio de Circulo"

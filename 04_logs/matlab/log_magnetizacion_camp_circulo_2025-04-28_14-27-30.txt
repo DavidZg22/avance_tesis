@@ -1,0 +1,22 @@
+? [2025-04-28_14-27-30] Inicio de ejecución: magnetizacion_camp_circulo
+
+dir_mph =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph'
+
+
+name_mph =
+
+    'circunferencia_V01.mph'
+
+
+dir =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph\circunferencia_V01.mph'
+
+{Undefined function or variable 'T'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('magnetizacion_camp_circulo', 'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\magnetizacion_camp_circulo.m', 22)" style="font-weight:bold">magnetizacion_camp_circulo</a> (<a href="matlab: opentoline('C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\magnetizacion_camp_circulo.m',22,0)">line 22</a>)
+    for j =1:length(T)
+} 
+magnetizacion_camp_circulo

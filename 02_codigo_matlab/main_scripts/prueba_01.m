@@ -1,6 +1,6 @@
-clear; clc; close all;
-x = -2:0.2:2;
-y = x.^3;
+% clear; clc; close all;
+x = H;
+y = res(1,2:end);
 
 h = x(2) - x(1);         % paso uniforme
 
@@ -16,8 +16,10 @@ end
 
 % Diferencia hacia atrás
 dy(end) = (y(end) - y(end-1)) / h;
-area_aprox = trapz(x,dy);
+area_aprox = trapz(x,y);
 
+I = trapz(x,y);
+    
 disp('   x         y = x^3      dy/dx (num)');
 disp([x' y' dy']);
 disp(area_aprox)

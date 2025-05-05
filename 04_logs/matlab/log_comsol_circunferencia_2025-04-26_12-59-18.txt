@@ -1,0 +1,33 @@
+? [2025-04-26_12-59-18] Inicio de ejecución: comsol_circunferencia
+
+dir_mph =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph'
+
+
+name_mph =
+
+    'circunferencia.mph'
+
+
+dir =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph\circunferencia.mph'
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mphint2')" style="font-weight:bold">mphint2</a>
+mphnumerical (0): Java exception occurred:
+Exception:
+	com.comsol.util.exceptions.FlException: Failed to evaluate expression
+Messages:
+	Variable no definida.
+	- Variable: A
+	- Geometría: geom1
+	- Dominio: 1
+
+	No se pudo evaluar la expresión.
+	- Expresión: comp1.u/A
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('comsol_circunferencia', 'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\comsol_circunferencia.m', 27)" style="font-weight:bold">comsol_circunferencia</a> (<a href="matlab: opentoline('C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\comsol_circunferencia.m',27,0)">line 27</a>)
+        v(i,j) = mphint2(model, 'u/A', 'surface');
+} 
+comsol_circunferencia

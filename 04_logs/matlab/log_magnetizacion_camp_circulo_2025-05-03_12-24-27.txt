@@ -1,0 +1,19 @@
+? [2025-05-03_12-24-27] Inicio de ejecución: magnetizacion_camp_circulo
+
+dir_mph =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph'
+
+
+name_mph =
+
+    'circunferencia_V01.mph'
+
+
+dir =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph\circunferencia_V01.mph'
+
+[Warning: The file "C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph\circunferencia_V01.mph" is read-only] 
+if system_dependent('IsDebugMode')==1, dbquit; end
+magnetizacion_camp_circulo

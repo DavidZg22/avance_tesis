@@ -1,0 +1,18 @@
+? [2025-05-04_10-32-14] Inicio de ejecución: magnetizacion_camp_circulo
+
+dir_mph =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph'
+
+
+name_mph =
+
+    'circulo_OK.mph'
+
+
+dir =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph\circulo_OK.mph'
+
+Tiempo de ejecución: 1287.865 segundos
+[2025-05-04_10-53-42] Fin de simulación

@@ -1,0 +1,76 @@
+? [2025-05-04_17-00-59] Inicio de ejecución: magnetizacion_camp_circulo
+
+dir_mph =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph'
+
+
+name =
+
+    'circulo_OK'
+
+
+dir =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\01_modelos_comsol\archivos_mph\circulo_OK.mph'
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+muestra_resultados
+
+dir_resul =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\resultados'
+
+
+name =
+
+    'triangulo_OK'
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\iofun\csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\iofun\csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('muestra_resultados', 'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\muestra_resultados.m', 3)" style="font-weight:bold">muestra_resultados</a> (<a href="matlab: opentoline('C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\muestra_resultados.m',3,0)">line 3</a>)
+data = csvread([dir_resul name '.csv']);
+} 
+muestra_resultados
+
+dir_resul =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\resultados'
+
+
+name =
+
+    'circulo_OK'
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('csvread', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\iofun\csvread.m', 35)" style="font-weight:bold">csvread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\iofun\csvread.m',35,0)">line 35</a>)
+File not found.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('muestra_resultados', 'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\muestra_resultados.m', 3)" style="font-weight:bold">muestra_resultados</a> (<a href="matlab: opentoline('C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\muestra_resultados.m',3,0)">line 3</a>)
+data = csvread([dir_resul 'data_' name '.csv']);
+} 
+muestra_resultados
+
+dir_resul =
+
+    'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\resultados\'
+
+
+name =
+
+    'circulo_OK'
+
+{Undefined function or variable 'res'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('muestra_resultados', 'C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\muestra_resultados.m', 6)" style="font-weight:bold">muestra_resultados</a> (<a href="matlab: opentoline('C:\Users\DAVID\Desktop\Ordenado\Tesis_Fisica_Modelado\02_codigo_matlab\main_scripts\muestra_resultados.m',6,0)">line 6</a>)
+f_x = res(:,2:end);
+} 
+res = [Delta_T; M]';
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vertcat')" style="font-weight:bold">vertcat</a>
+Dimensions of matrices being concatenated are not consistent.
+} 
+res = [Delta_T; M]';
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vertcat')" style="font-weight:bold">vertcat</a>
+Dimensions of matrices being concatenated are not consistent.
+} 
+magnetizacion_camp_circulo
