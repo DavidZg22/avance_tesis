@@ -26,17 +26,32 @@ end
 
 figure;
 
-for i = 1:length(simul)
-    subplot(1, 3, i);  % 1 fila, 3 columnas, subplot i
-    plot(Delta_T{i}(1:end-1),Delta_S{i}, 'bo-', 'LineWidth', 1.5);
-    title(simul{i}, 'Interpreter', 'none');
-    ylim([0,5]);
-    xlabel('T');
-    ylabel('S');
-    grid on;
+for j = 1:2
+    for i = 1:length(simul)
+        subplot(2, 3, (j-1)*3 + i);  % 1 fila, 3 columnas, subplot i
+        
+        if j == 1
+            plot(Delta_T{i}(1:end-1), Delta_S{i}, 'bo-', 'LineWidth', 1.5);
+            title(['Delta S - ' simul{i}], 'Interpreter', 'none');
+            ylabel('$$\Delta S$$', 'Interpreter', 'latex');
+            xlabel('T');
+            ylim([0,5]);
+            grid on;
+        else
+            for k=1:99
+                hold on;
+                plot(H, data{i}(k,2:end), 'rs-', 'LineWidth', 1.5);  % ejemplo: graficar áreas
+            end
+            hold off;
+            title(['Magnetizacion - ' simul{i}], 'Interpreter', 'none');
+            ylabel('$$-4 \pi M$$', 'Interpreter', 'latex');
+            xlabel('$$H/H_c$$', 'Interpreter', ' latex');
+            grid on;
+        end                  
+    end
 end
-
-suptitle('S vs T para cada figura');
+    
+suptitle('Estudio para cada figura');
 
 
 
